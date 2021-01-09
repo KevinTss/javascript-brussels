@@ -9,7 +9,9 @@
     "type": "git",
     "url": "git+https://github.com/KevinTss/javascript.brussels.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@nuxtjs/style-resources": "^1.0.0"
+  },
   "dependencies": {
     "nuxt": "^2.14.12",
     "sass": "^1.32.2",

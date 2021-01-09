@@ -1,0 +1,20 @@
+/**
+ * Color system are all color we use
+ *
+ * Name are generated with that tool: 
+ * https://chir.ag/projects/name-that-color/
+ */
+$color-system: (
+  rip-lemon: #efd81a,
+  tuna: #353745,
+);
+
+$color-text: map-get($color-system, tuna);
+
+/**
+ * Font
+ *
+ * We use Roboto from Google:
+ * https://fonts.google.com/specimen/Roboto
+ */
+$font-family: 'Roboto', sans-serif;
