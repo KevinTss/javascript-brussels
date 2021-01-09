@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "generate": "nuxt generate",
+    "start": "nuxt start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinTss/javascript.brussels.git"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "nuxt": "^2.14.12",
+    "sass": "^1.32.2",
+    "sass-loader": "^10.1.0"
+  }
+}
