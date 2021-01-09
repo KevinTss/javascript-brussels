@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinTss/javascript.brussels.git"
+  },
+  "devDependencies": {}
+}
