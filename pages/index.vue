@@ -6,11 +6,11 @@
 </template>
 
 <script>
-  import BaseButton from '../components/ui/BaseButton'
+import BaseButton from "../components/ui/BaseButton";
 
-  export default {
-    components: {BaseButton}
-  }
+export default {
+  components: { BaseButton },
+};
 </script>
 
 <style lang="scss" scoped>

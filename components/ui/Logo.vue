@@ -5,15 +5,15 @@
 </template>
 
 <style lang="scss" scoped>
-  .logo {
-    display: flex;
+.logo {
+  display: flex;
 
-    a {
-      display: inline-flex;
-      align-items: center;
-      font-weight: 300;
-      font-size: 28px;
-      line-height: 140%;
-    }
+  a {
+    display: inline-flex;
+    align-items: center;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 140%;
   }
+}
 </style>

@@ -1,25 +1,25 @@
 <template>
   <button class="btn">
-    <slot/>
+    <slot />
   </button>
 </template>
 
 <script>
-  export default {
-    name: 'base-button'
-  }
+export default {
+  name: "BaseButton",
+};
 </script>
 
 <style lang="scss" scoped>
-  $color-primary: #efd81a;
+$color-primary: #efd81a;
 
-  .btn {
-    background-color: $color-primary;
-    border: 2px solid $color-primary;
-    padding: 10px 20px;
-    color: white;
-    border-radius: 4px;
-    font-weight: 900;
-    font-size: 16px;
-  }
+.btn {
+  background-color: $color-primary;
+  border: 2px solid $color-primary;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 16px;
+}
 </style>

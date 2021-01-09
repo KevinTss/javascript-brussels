@@ -7,13 +7,13 @@
 </template>
 
 <script>
-  export default {
-    name: 'top-nav'
-  }
+export default {
+  name: "TopNav",
+};
 </script>
 
 <style lang="scss" scoped>
-  .top-nav {
-    display: flex;
-  }
+.top-nav {
+  display: flex;
+}
 </style>
