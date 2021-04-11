@@ -1,7 +1,7 @@
 <template>
   <nav class="top-nav">
     <span>
-      <NuxtLink to="/resources">Resources</NuxtLink>
+      <!-- <NuxtLink to="/resources">Resources</NuxtLink> -->
     </span>
   </nav>
 </template>

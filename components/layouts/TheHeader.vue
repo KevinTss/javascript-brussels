@@ -19,18 +19,16 @@ export default {
 
 <style lang="scss" scoped>
 .the-header {
-  display: flex;
+  @include page-wrapper;
   height: 60px;
   position: sticky;
   top: 0;
-  justify-content: center;
-  padding: 0 20px;
+  background-color: white;
+  border-bottom: 1px solid $color-primary;
 
   .container {
-    display: flex;
+    @include page-container;
     height: 100%;
-    width: 90%;
-    max-width: 1200px;
     justify-content: space-between;
   }
 }

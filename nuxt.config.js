@@ -2,7 +2,7 @@ export default {
   target: "static",
   modules: ["@nuxtjs/style-resources"],
   styleResources: {
-    scss: ["~/assets/style/_variables.scss"],
+    scss: ["~/assets/style/_variables.scss", "~/assets/style/_mixins.scss"],
   },
   head: {
     title: "JavaScript Brussels",

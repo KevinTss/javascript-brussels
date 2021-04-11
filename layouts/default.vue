@@ -1,9 +1,7 @@
 <template>
   <div class="default-layout">
     <TheHeader />
-    <main>
-      <Nuxt />
-    </main>
+    <Nuxt />
     <TheFooter />
   </div>
 </template>
@@ -49,6 +47,7 @@ body,
   main {
     display: flex;
     flex-grow: 1;
+    flex-direction: column;
   }
 }
 </style>

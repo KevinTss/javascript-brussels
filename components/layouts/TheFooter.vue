@@ -1,15 +1,35 @@
 <template>
-  <footer class="the-footer">footer</footer>
+  <footer class="the-footer">
+    <div class="container">
+      <BaseText is-light>
+        &copy; JavaScript.brussels —
+        <BaseLink is-light href="mailto:info@javascript.brussels"
+          >info@javascript.brussels</BaseLink
+        >
+      </BaseText>
+    </div>
+  </footer>
 </template>
 
 <script>
+import BaseText from "../ui/BaseText";
+import BaseLink from "../ui/BaseLink";
+
 export default {
   name: "TheFooter",
+  components: { BaseText, BaseLink },
 };
 </script>
 
 <style lang="scss" scoped>
 .the-footer {
-  background-color: blue;
+  @include page-wrapper;
+  background-color: $color-primary;
+}
+
+.container {
+  @include page-container;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 </style>

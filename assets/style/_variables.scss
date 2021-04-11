@@ -5,11 +5,14 @@
  * https://chir.ag/projects/name-that-color/
  */
 $color-system: (
-  rip-lemon: #efd81a,
-  tuna: #353745,
+  rip-lemon: #f5da05,
+  mamba: #92889d,
+  cloud-burst: #1d254f,
 );
 
-$color-text: map-get($color-system, tuna);
+$color-heading: map-get($color-system, cloud-burst);
+$color-text: map-get($color-system, mamba);
+$color-primary: map-get($color-system, rip-lemon);
 
 /**
  * Font
@@ -17,4 +20,4 @@ $color-text: map-get($color-system, tuna);
  * We use Roboto from Google:
  * https://fonts.google.com/specimen/Roboto
  */
-$font-family: 'Roboto', sans-serif;
+$font-family: "Roboto", sans-serif;

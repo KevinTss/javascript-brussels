@@ -11,9 +11,16 @@
   a {
     display: inline-flex;
     align-items: center;
-    font-weight: 300;
+    font-weight: 900;
     font-size: 28px;
     line-height: 140%;
+
+    @include on-medium-screen-and-down {
+      font-size: 24px;
+    }
+    @include on-medium-screen-and-down {
+      font-size: 18px;
+    }
   }
 }
 </style>
