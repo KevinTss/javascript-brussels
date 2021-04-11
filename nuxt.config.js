@@ -1,6 +1,6 @@
 export default {
   target: "static",
-  modules: ["@nuxtjs/style-resources"],
+  modules: ["@nuxtjs/style-resources", "@nuxtjs/gtm"],
   styleResources: {
     scss: ["~/assets/style/_variables.scss", "~/assets/style/_mixins.scss"],
   },
@@ -23,5 +23,8 @@ export default {
           "https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap",
       },
     ],
+  },
+  gtm: {
+    id: "GTM-W4JBHK9",
   },
 };
