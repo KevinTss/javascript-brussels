@@ -8,6 +8,8 @@
             :title="item.name"
             :logo-url="item.image"
             :link="item.url"
+            :tags="item.tags"
+            :langs="item.langs"
           />
         </li>
       </ul>
@@ -42,6 +44,7 @@ export default {
   @include page-wrapper;
   padding-top: 50px;
   padding-bottom: 50px;
+  margin: -10px;
 }
 
 .container {

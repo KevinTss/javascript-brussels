@@ -26,11 +26,46 @@ export default {
       name: "Hackages",
       url: "https://www.hackages.io/",
       image:
-        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/128892295_3672085856171578_5623114005888295828_n.png?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=OQLKrIyOliAAX9bE-NB&_nc_ht=scontent.fbru2-1.fna&oh=c6d4717fa27116d0113f854b6e278f24&oe=60995EA9",
+        "data:image/png;base64,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",
     },
     {
       name: "Web Design Academy",
       url: "https://webdesignacademy.be/",
+    },
+  ],
+  tutorials: [
+    {
+      name: "Pluralsight",
+      url: "https://www.pluralsight.com/browse/software-development/javascript",
+      image:
+        "https://www.pluralsight.com/content/dam/pluralsight/newsroom/brand-assets/logos/PS_logo_F-01.png",
+      tags: ["paid", "trial"],
+      langs: ["en"],
+    },
+    {
+      name: "Udemy",
+      url: "https://www.udemy.com/courses/search/?src=ukw&q=javascript",
+      image:
+        "https://digitalsharecropper.com/wp-content/uploads/2016/03/udemy-logo-e1604793745846.png",
+      tags: ["paid", "free"],
+      langs: ["en", "fr"],
+    },
+    {
+      name: "FreeCodeCamp",
+      url:
+        "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
+      image:
+        "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+      tags: ["free"],
+      langs: ["en"],
+    },
+    {
+      name: "Grafikart",
+      url: "https://grafikart.fr/formations/debuter-javascript",
+      image:
+        "https://pbs.twimg.com/profile_images/71345984/n95801875180_3225_400x400.jpg",
+      tags: ["free"],
+      langs: ["fr"],
     },
   ],
 }

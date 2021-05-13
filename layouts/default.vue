@@ -36,6 +36,7 @@ body,
 #__layout {
   width: 100%;
   height: 100%;
+  background-color: $color-default-bg;
 }
 
 .default-layout {

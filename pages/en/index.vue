@@ -2,6 +2,7 @@
   <main>
     <HomeHeader />
     <ItemsContainer :items="bootcamps" title="Bootcamps in Brussels" />
+    <ItemsContainer :items="tutorials" title="JavaScript tutorials" />
   </main>
 </template>
 
@@ -15,6 +16,7 @@ export default {
   data() {
     return {
       bootcamps: data.bootcamps,
+      tutorials: data.tutorials,
     }
   },
 }

@@ -5,14 +5,17 @@
  * https://chir.ag/projects/name-that-color/
  */
 $color-system: (
-  rip-lemon: #f5da05,
-  mamba: #92889d,
+  catskill-white: #f6f9fb,
   cloud-burst: #1d254f,
+  mamba: #92889d,
+  rip-lemon: #f5da05,
 );
 
 $color-heading: map-get($color-system, cloud-burst);
 $color-text: map-get($color-system, mamba);
 $color-primary: map-get($color-system, rip-lemon);
+$color-default-bg: map-get($color-system, catskill-white);
+$color-transparent: rgba(255, 255, 255, 0);
 
 /**
  * Font

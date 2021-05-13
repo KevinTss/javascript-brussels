@@ -21,9 +21,10 @@ export default {
 .the-header {
   @include page-wrapper;
   height: 60px;
+  min-height: 60px;
   position: sticky;
   top: 0;
-  background-color: white;
+  background-color: $color-default-bg;
   border-bottom: 1px solid $color-primary;
 
   .container {
