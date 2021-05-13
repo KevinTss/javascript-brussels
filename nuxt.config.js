@@ -14,7 +14,7 @@ export default {
       },
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/static/favicon.ico" },
+      { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
       /**
        * Google Font
        * https://fonts.google.com/specimen/Roboto
