@@ -12,7 +12,7 @@ export default {
       type: String,
       default: "primary",
       validator(value) {
-        return ["primary", "minimal"].includes(value);
+        return ["primary", "minimal"].includes(value)
       },
     },
   },
@@ -21,10 +21,10 @@ export default {
       return {
         btn: true,
         [this.variant]: true,
-      };
+      }
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

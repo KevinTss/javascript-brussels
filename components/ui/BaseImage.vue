@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import fallbackLogoUrl from "../../assets/images/logo/js-logo-120x120.png";
+import fallbackLogoUrl from "../../assets/images/logo/js-logo-120x120.png"
 
 export default {
   name: "BaseImage",
@@ -16,21 +16,21 @@ export default {
       type: String,
       default: "contain",
       validator(value) {
-        return ["contain", "cover"].includes(value);
+        return ["contain", "cover"].includes(value)
       },
     },
   },
   data() {
-    return { fallback: fallbackLogoUrl };
+    return { fallback: fallbackLogoUrl }
   },
   computed: {
     style() {
       return {
         objectFit: "contain",
-      };
+      }
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

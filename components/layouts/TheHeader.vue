@@ -8,13 +8,13 @@
 </template>
 
 <script>
-import Logo from "../ui/Logo";
-import TopNav from "../navigations/TopNav";
+import Logo from "../ui/Logo"
+import TopNav from "../navigations/TopNav"
 
 export default {
   name: "TheHeader",
   components: { Logo, TopNav },
-};
+}
 </script>
 
 <style lang="scss" scoped>

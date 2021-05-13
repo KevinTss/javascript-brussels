@@ -12,13 +12,13 @@
 </template>
 
 <script>
-import BaseText from "../ui/BaseText";
-import BaseLink from "../ui/BaseLink";
+import BaseText from "../ui/BaseText"
+import BaseLink from "../ui/BaseLink"
 
 export default {
   name: "TheFooter",
   components: { BaseText, BaseLink },
-};
+}
 </script>
 
 <style lang="scss" scoped>

@@ -12,30 +12,30 @@ export default {
       type: Number,
       default: 1,
       validator(value) {
-        return value < 7 && value > 0;
+        return value < 7 && value > 0
       },
     },
     size: {
       type: String,
       default: "m",
       validator(value) {
-        return ["m", "xl"].includes(value);
+        return ["m", "xl"].includes(value)
       },
     },
   },
   computed: {
     headingTag() {
-      return `h${this.level}`;
+      return `h${this.level}`
     },
 
     styleClasses() {
       return {
         heading: true,
         [this.size]: true,
-      };
+      }
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

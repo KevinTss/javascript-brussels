@@ -21,9 +21,9 @@
 </template>
 
 <script>
-import BaseHeading from "../ui/BaseHeading";
-import BaseText from "../ui/BaseText";
-import BaseImage from "../ui/BaseImage";
+import BaseHeading from "../ui/BaseHeading"
+import BaseText from "../ui/BaseText"
+import BaseImage from "../ui/BaseImage"
 
 export default {
   name: "HomeHeader",
@@ -31,9 +31,9 @@ export default {
   data() {
     return {
       illustrationUrl: require("../../assets/images/llustrations/discuss-product.svg"),
-    };
+    }
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

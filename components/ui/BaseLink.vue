@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import BaseText from "./BaseText";
+import BaseText from "./BaseText"
 
 export default {
   name: "BaseLink",
@@ -22,7 +22,7 @@ export default {
       default: "#",
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

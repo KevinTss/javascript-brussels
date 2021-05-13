@@ -10,8 +10,8 @@
 </template>
 
 <script>
-import BaseImage from "../ui/BaseImage";
-import BaseText from "../ui/BaseText";
+import BaseImage from "../ui/BaseImage"
+import BaseText from "../ui/BaseText"
 
 export default {
   name: "ItemCard",
@@ -30,7 +30,7 @@ export default {
       default: "",
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

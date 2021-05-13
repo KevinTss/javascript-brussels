@@ -33,4 +33,4 @@ export default {
       url: "https://webdesignacademy.be/",
     },
   ],
-};
+}

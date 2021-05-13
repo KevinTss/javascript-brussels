@@ -16,8 +16,8 @@
 </template>
 
 <script>
-import BaseHeading from "../ui/BaseHeading";
-import ItemCard from "../ui/ItemCard";
+import BaseHeading from "../ui/BaseHeading"
+import ItemCard from "../ui/ItemCard"
 
 export default {
   name: "ItemContainer",
@@ -34,7 +34,7 @@ export default {
       default: () => [],
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

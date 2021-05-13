@@ -9,7 +9,7 @@
 <script>
 export default {
   name: "TopNav",
-};
+}
 </script>
 
 <style lang="scss" scoped>

@@ -1,1 +1,1 @@
-export { default } from "./en";
+export { default } from "./en"

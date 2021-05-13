@@ -12,14 +12,14 @@ export default {
       type: String,
       default: "m",
       validator(value) {
-        return ["m", "xl"].includes(value);
+        return ["m", "xl"].includes(value)
       },
     },
     tag: {
       type: String,
       default: "p",
       validator(value) {
-        return ["p", "div", "span", "a"].includes(value);
+        return ["p", "div", "span", "a"].includes(value)
       },
     },
     isLight: {
@@ -33,10 +33,10 @@ export default {
         text: true,
         [this.size]: true,
         light: this.isLight,
-      };
+      }
     },
   },
-};
+}
 </script>
 
 <style lang="scss" scoped>

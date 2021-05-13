@@ -28,4 +28,4 @@ module.exports = {
     "package-lock.json",
     "package.json",
   ],
-};
+}
