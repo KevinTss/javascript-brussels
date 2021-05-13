@@ -9,12 +9,12 @@
           <BaseText>{{ title }}</BaseText>
         </div>
       </div>
-      <ul class="tags-container">
+      <ul v-if="tags.length" class="tags-container">
         <li v-for="(tag, index) in tags" :key="index" class="tag-item">
           <Tag :text="tag" />
         </li>
       </ul>
-      <ul class="langs-container">
+      <ul v-if="langs.length" class="langs-container">
         <li class="lang-item">Languages:</li>
         <li v-for="(lang, index) in langs" :key="index" class="lang-item">
           {{ lang }}
