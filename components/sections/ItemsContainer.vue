@@ -1,5 +1,5 @@
 <template>
-  <div class="item-container">
+  <div :id="id" class="item-container">
     <div class="container">
       <BaseHeading>{{ title }}</BaseHeading>
       <ul class="list">
@@ -25,6 +25,10 @@ export default {
   name: "ItemContainer",
   components: { BaseHeading, ItemCard },
   props: {
+    id: {
+      type: String,
+      required: true,
+    },
     title: {
       type: String,
       required: true,

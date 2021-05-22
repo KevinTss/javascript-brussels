@@ -1,9 +1,22 @@
 <template>
   <main>
     <HomeHeader />
-    <ItemsContainer :items="bootcamps" title="Bootcamps in Brussels" />
-    <ItemsContainer :items="jobs" title="Find a job" />
-    <ItemsContainer :items="tutorials" title="JavaScript tutorials" />
+    <ItemsContainer
+      id="bootcamps"
+      :items="bootcamps"
+      title="Bootcamps in Brussels"
+    />
+    <ItemsContainer id="jobs" :items="jobs" title="Find a job" />
+    <ItemsContainer
+      id="youtube"
+      :items="youtubeLinks"
+      title="Youtube resources"
+    />
+    <ItemsContainer
+      id="tutorials"
+      :items="tutorials"
+      title="JavaScript tutorials"
+    />
   </main>
 </template>
 
@@ -19,6 +32,7 @@ export default {
       bootcamps: data.bootcamps,
       jobs: data.jobs,
       tutorials: data.tutorials,
+      youtubeLinks: data.youtubeLinks,
     }
   },
 }

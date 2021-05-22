@@ -202,4 +202,13 @@ export default {
         "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/67221268_2410872995861640_5458055078390792192_n.png?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=T5omt7WuEl0AX8KeNv0&_nc_ht=scontent.fbru2-1.fna&oh=bc368b269efa5bbf5461dfd1cf7ded48&oe=60CFEBF1",
     },
   ],
+  youtubeLinks: [
+    {
+      name: "Beginner's Series to JavaScript (by Microsoft)",
+      url:
+        "https://www.youtube.com/playlist?list=PLlrxD0HtieHhW0NCG7M536uHGOtJ95Ut2",
+      image:
+        "https://yt3.ggpht.com/ytc/AAUvwniEKJtCAR62Fh08mR9SYNk0HBXdiTbJdTpbtdpq=s176-c-k-c0x00ffffff-no-rj",
+    },
+  ],
 }
