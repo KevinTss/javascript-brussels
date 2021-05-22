@@ -75,6 +75,14 @@ export default {
       tags: ["free"],
       langs: ["fr"],
     },
+    {
+      name: "Envato Tuts+",
+      url: "https://tutsplus.com/",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/12227668_10156247364105442_6518611457334726098_n.png?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=e7qonUjRiEQAX8vw2pW&_nc_ht=scontent.fbru2-1.fna&oh=f39e30c508a1dc25a6d57514839c057b&oe=60CD583F",
+      tags: ["paid"],
+      langs: ["en"],
+    },
   ],
   jobs: [
     {
@@ -180,6 +188,18 @@ export default {
       url: "https://androidjobs.io/",
       image:
         "https://pbs.twimg.com/profile_images/1020635343090077697/Lfqn5tOY_400x400.jpg",
+    },
+    {
+      name: "Honeypot",
+      url: "https://www.honeypot.io/en/",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/78647113_2477698762506081_46569166454390784_n.png?_nc_cat=106&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=6M56DgN6X5sAX9O_zyR&_nc_ht=scontent.fbru2-1.fna&oh=156e1b25a3a1b376ec1f92e00a6ff9cb&oe=60CD9D60",
+    },
+    {
+      name: "Arc",
+      url: "https://arc.dev/",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/67221268_2410872995861640_5458055078390792192_n.png?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=T5omt7WuEl0AX8KeNv0&_nc_ht=scontent.fbru2-1.fna&oh=bc368b269efa5bbf5461dfd1cf7ded48&oe=60CFEBF1",
     },
   ],
 }
