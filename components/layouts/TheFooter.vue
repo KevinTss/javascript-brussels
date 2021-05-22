@@ -1,9 +1,9 @@
 <template>
   <footer class="the-footer">
     <div class="container">
-      <BaseText is-light>
+      <BaseText>
         &copy; JavaScript.brussels —
-        <BaseLink is-light href="mailto:info@javascript.brussels"
+        <BaseLink href="mailto:info@javascript.brussels"
           >info@javascript.brussels</BaseLink
         >
       </BaseText>
