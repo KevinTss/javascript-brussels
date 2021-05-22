@@ -12,8 +12,8 @@
           >All you need to find about JavaScript in Brussels</BaseHeading
         >
         <BaseText size="xl"
-          >Find tutorials, books, bootcamp and every resources shared by the
-          community.</BaseText
+          >Find tutorials, books, jobs, bootcamps and all useful resources
+          shared by the community.</BaseText
         >
       </div>
     </div>
