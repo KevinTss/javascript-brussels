@@ -1,32 +1,40 @@
 export default {
   bootcamps: [
     {
-      name: "Le Wagon",
-      url: "https://www.lewagon.com/brussels",
-      image: "https://avatars.githubusercontent.com/u/5470001?s=200&v=4",
+      name: "Hack Your Future Belgium",
+      url: "https://hackyourfuture.be/",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/118762455_740877433359561_1083340383117362136_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ukqeplzh9XsAX_OqDpy&_nc_ht=scontent.fbru2-1.fna&oh=b56eec4af0c358806c52182cbdf1a411&oe=60CFDFA5",
     },
     {
       name: "Code Belgium",
       url: "https://www.codebelgium.com/",
       image:
-        "https://www.codebelgium.com/assets/site/logo/front-header-logo.png",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/61086683_322750995293133_4529142558089019392_n.png?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=3x4e3Dk4rqsAX_P1871&_nc_ht=scontent.fbru2-1.fna&oh=0ab70d5106fa939c5ca267f6ae7493a9&oe=60D0958A",
     },
     {
       name: "Becode",
       url: "https://becode.org/",
-      image: "https://becode.org/app/uploads/2020/03/bc_mailsign_seal.png",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t31.18172-8/27709777_590150484666821_2107143794062119924_o.png?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=doKG15acL2MAX-TBLKr&_nc_ht=scontent.fbru2-1.fna&oh=5d21c910e860d1802778b60c2b9cccd7&oe=60CF41D1",
     },
     {
-      name: "Hack Your Future Belgium",
-      url: "https://hackyourfuture.be/",
+      name: "She Codes",
+      url: "https://www.shecodes.io/",
       image:
-        "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTU0IiBoZWlnaHQ9IjgxIiB2aWV3Qm94PSIwIDAgMTU0IDgxIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8ZyBjbGlwLXBhdGg9InVybCgjY2xpcDApIj4KPHBhdGggZD0iTTE1NCA3NC40NDAxVjc5LjY4MThIMTM2LjgxMlY1OS40MDU4SDE1My42MzRWNjQuNjQ3NUgxNDMuOTY0VjY3LjE2NjhIMTUxLjc2NVY3Mi4wMDIxSDE0My45NjRWNzQuMzk5NUwxNTQgNzQuNDQwMVpNMTI3LjU0OCA3OS42ODE4TDEyMy45NzIgNzIuOTM2N0gxMjIuMDIyVjc5LjY4MThIMTE1LjAzM1Y1OS40MDU4SDEyNi4wMDRDMTI4LjY4NiA1OS40MDU4IDEzMC43NTggNTkuOTc0NyAxMzIuMTM5IDYxLjExMjRDMTMzLjUyMSA2Mi4yNTAxIDEzNC4yMTIgNjMuOTU2NyAxMzQuMjEyIDY2LjE5MTZDMTM0LjIxMiA2OS4xNTc4IDEzMi45OTMgNzEuMTQ4OCAxMzAuNTU1IDcyLjE2NDZMMTM1LjM0OSA3OS42NDEyTDEyNy41NDggNzkuNjgxOFpNMTI2LjQ5MSA2NC45MzE5QzEyNi4xMjYgNjQuNjQ3NSAxMjUuNDc1IDY0LjQ4NSAxMjQuNTgyIDY0LjQ4NUgxMjIuMDIyVjY4LjIyMzJIMTI0LjU4MkMxMjUuNDc1IDY4LjIyMzIgMTI2LjEyNiA2OC4xMDEzIDEyNi40OTEgNjcuODE2OUMxMjcuMjIzIDY3LjA0NDkgMTI3LjIyMyA2NS43ODUyIDEyNi40OTEgNjQuOTMxOVpNMTAyLjQzNiA4MC4wMDY5Qzk1LjkzNTEgODAuMDA2OSA5Mi42NDM4IDc3IDkyLjY0MzggNzAuOTg2M1Y1OS40NDY0SDk5LjgzNTlWNzEuNTE0NUM5OS43OTUyIDcyLjMyNzIgOTkuOTk4NCA3My4xODA1IDEwMC40ODYgNzMuODMwNkMxMDAuOTc0IDc0LjM1ODggMTAxLjcwNSA3NC42ODM5IDEwMi40MzYgNzQuNjAyNkMxMDMuMTY4IDc0LjY0MzMgMTAzLjg5OSA3NC4zNTg4IDEwNC4zODcgNzMuODMwNkMxMDQuODc0IDczLjE4MDUgMTA1LjExOCA3Mi4zMjcyIDEwNS4wNzggNzEuNTE0NVY1OS40MDU4SDExMi4yMjlWNzAuOTQ1NkMxMTIuMjI5IDc3IDEwOC45NzggODAuMDA2OSAxMDIuNDM2IDgwLjAwNjlaTTg0LjQ3NjUgNzkuNjgxOEg3Ny4zMjUxVjY0LjY0NzVINzAuOTg2M1Y1OS40MDU4SDkwLjgxNTNWNjQuNjQ3NUg4NC41MTcyTDg0LjQ3NjUgNzkuNjgxOFpNNTkuMzI0NSA4MC4wMDY5QzUyLjc4MjYgODAuMDA2OSA0OS41MzE5IDc3IDQ5LjUzMTkgNzAuOTg2M1Y1OS40NDY0SDU2LjcyNFY3MS41MTQ1QzU2LjY4MzQgNzIuMzI3MiA1Ni44ODY1IDczLjE4MDUgNTcuMzc0MSA3My44MzA2QzU3Ljg2MTcgNzQuMzU4OCA1OC41OTMxIDc0LjY4MzkgNTkuMzI0NSA3NC42MDI2QzYwLjA1NTkgNzQuNjQzMyA2MC43ODczIDc0LjM1ODggNjEuMjc0OSA3My44MzA2QzYxLjc2MjUgNzMuMTgwNSA2Mi4wMDYzIDcyLjMyNzIgNjEuOTY1NyA3MS41MTQ1VjU5LjQwNThINjkuMTE3MlY3MC45NDU2QzY5LjExNzIgNzcgNjUuODY2NSA4MC4wMDY5IDU5LjMyNDUgODAuMDA2OVpNMzguMTU0NiA2Ny40OTE4SDQ1Ljk1NjJWNzIuNzMzNUgzOC4xNTQ2Vjc5LjY4MThIMzEuMDAzMlY1OS40MDU4SDQ3Ljc4NDdWNjQuNjQ3NUgzOC4xNTQ2VjY3LjQ5MThaTTg0LjU5ODQgMjAuNDc5Mkg3Ni42MzQzTDcyLjg5NiAxMi45MjE0TDcxLjIzMDEgMTUuMTk2OFYyMC40NzkySDY0LjExOTNWMC4zMjUwNjhINzEuMjMwMVY3Ljg0MjIyTDc2LjQ3MTggMC4zMjUwNjhIODQuMDI5Nkw3Ny44NTMzIDguMzI5ODJMODQuNTk4NCAyMC40NzkyWk01My4xNDgzIDE1LjQ0MDZDNTQuMTIzNSAxNS40NDA2IDU0LjgxNDIgMTUuMjM3NSA1NS4yMjA2IDE0Ljc5MDVDNTUuNzA4MiAxNC4xODEgNTUuOTkyNiAxMy40NDk2IDU2LjAzMzIgMTIuNjc3Nkw2Mi4zMzE0IDE0LjMwMjlDNjEuMjc0OSAxOC42MSA1OC4xODY4IDIwLjc2MzYgNTMuMDI2NCAyMC43NjM2QzUxLjExNjYgMjAuODA0MiA0OS4yNDc1IDIwLjM5NzkgNDcuNTQwOSAxOS41NDQ2QzQ2LjAzNzUgMTguNzMxOSA0NC43Nzc4IDE3LjUxMjkgNDQuMDA1OCAxNS45Njg5QzQzLjE1MjUgMTQuMjIxNiA0Mi43MDU1IDEyLjMxMTkgNDIuNzg2OCAxMC4zNjE1QzQyLjc0NjIgOC40MTEwOCA0My4xNTI1IDYuNTAxMzIgNDQuMDA1OCA0Ljc1NDA5QzQ0Ljc3NzggMy4yNTA2NiA0Ni4wMzc1IDEuOTkxMDMgNDcuNTQwOSAxLjE3ODM3QzQ5LjI0NzUgMC4zMjUwNjggNTEuMTE2NiAtMC4wODEyNjQ3IDUzLjAyNjQgLTAuMDQwNjMxNUM1NS4xMzkzIC0wLjEyMTg5OCA1Ny4yNTIyIDAuNDA2MzM0IDU5LjA4MDcgMS40NjI4QzYwLjc0NjcgMi40Nzg2MyA2MS44ODQ0IDQuMTQ0NTkgNjIuMjA5NSA2LjA1NDM2TDU2LjExNDUgOC40NTE3MkM1NS45NTIgNy4xOTIwOSA1NS42Njc1IDYuMzc5NDIgNTUuMjIwNiA1LjkzMjQ2QzU0LjY1MTcgNS40NDQ4NiA1My45NjEgNS4yNDE2OSA1My4yMjk2IDUuMjgyMzJDNTIuMjU0NCA1LjI0MTY5IDUxLjM2MDQgNS42ODg2NiA1MC44MzIyIDYuNTAxMzJDNTAuMzA0IDcuMzEzOTkgNTAuMDE5NSA4LjU3MzYyIDUwLjAxOTUgMTAuMzIwOEM1MC4wMTk1IDEyLjA2ODEgNTAuMjYzMyAxMy4zMjc3IDUwLjc5MTYgMTQuMTQwNEM1MS4zMTk4IDE1LjAzNDMgNTIuMjEzNyAxNS40ODEzIDUzLjE0ODMgMTUuNDQwNlpNMzUuNzE2NiAyMC40NzkyTDM0Ljc4MjEgMTYuNjE5SDI5LjMzNzJMMjguNDAyNiAyMC40NzkySDIxLjMzMjVMMjcuODc0NCAwLjMyNTA2OEgzNi40NDhMNDMuMDMwNiAyMC40NzkySDM1LjcxNjZaTTMyLjE0MDkgNS40ODU0OUgzMi4wNTk2TDMxLjI0NyA4Ljg5ODY4TDMwLjQzNDMgMTIuMTlIMzMuNzY2MkwzMi4xNDA5IDUuNDg1NDlaTTEyLjk2MiAxMi45NjJINy40MzU4OFYyMC40NzkySDAuMzI1MDY2VjAuMzI1MDY4SDcuNDM1ODhWNy43MjAzMkgxMi45NjJWMC4zMjUwNjhIMjAuMDcyOFYyMC40NzkySDEyLjk2MlYxMi45NjJaTTMwLjYzNzUgNDUuMTg0MlY1MC41NDc4QzMwLjYzNzUgNTAuNTQ3OCAyMC4wMzIyIDUxLjAzNTQgMjAuNTYwNCAzOS42NThDMjAuNjQxNyAyOS4wNTI4IDMwLjU5NjggMjkuNzg0MiAzMC41OTY4IDI5Ljc4NDJWMzQuOTg1MkMzMC41OTY4IDM0Ljk4NTIgMjcuNjcxMiAzNC43NDE0IDI3Ljc1MjUgNDAuMDY0NEMyNy44MzM4IDQ1LjM4NzMgMzAuMDI4IDQ1LjA2MjMgMzAuNjM3NSA0NS4xODQyWk02OS41NjQxIDM0Ljc4MjFWMjkuNDE4NUM2OS41NjQxIDI5LjQxODUgNzkuNTU5OSAyOC40ODM5IDc5LjY4MTggMzkuOTgzMUM3OS42MDA1IDUwLjc5MTYgNjkuNjA0OCA1MC4yMjI3IDY5LjYwNDggNTAuMjIyN1Y0NC45ODFDNjkuNjA0OCA0NC45ODEgNzIuNjkyOSA0NC45ODEgNzIuNDQ5MSAzOS41MzYyQzcyLjIwNTMgMzQuMDkxMyA2OS41NjQxIDM0Ljc4MjEgNjkuNTY0MSAzNC43ODIxWk0xMjQuMjk3IDUwLjAxOTVIMTE2LjUzNkwxMTIuOTYgNDMuMjc0NEgxMTEuMDFWNTAuMDE5NUgxMDQuMDIxVjI5Ljc0MzVIMTE0Ljk5MkMxMTcuNjc0IDI5Ljc0MzUgMTE5Ljc0NiAzMC4zMTI0IDEyMS4xMjggMzEuNDUwMUMxMjIuNTA5IDMyLjU4NzkgMTIzLjIgMzQuMjk0NSAxMjMuMiAzNi41MjkzQzEyMy4yIDM5LjQ5NTUgMTIxLjk4MSA0MS40ODY1IDExOS41NDMgNDIuNTAyNEwxMjQuMjk3IDUwLjAxOTVaTTExNS40MzkgMzUuMjY5N0MxMTUuMDczIDM0Ljk4NTIgMTE0LjQyMyAzNC44MjI3IDExMy41MjkgMzQuODIyN0gxMTAuOTY5VjM4LjU2MUgxMTMuNTI5QzExNC40MjMgMzguNTYxIDExNS4wNzMgMzguNDM5MSAxMTUuNDM5IDM4LjE1NDZDMTE2LjIxMSAzNy4zNDIgMTE2LjIxMSAzNi4wODIzIDExNS40MzkgMzUuMjY5N1pNOTEuNTg3MyA1MC4zMDRDODUuMDQ1NCA1MC4zMDQgODEuNzk0NyA0Ny4yOTcxIDgxLjc5NDcgNDEuMjgzNFYyOS43NDM1SDg4Ljk4NjhWNDEuODUyMkM4OC45NDYyIDQyLjY2NDkgODkuMTQ5MyA0My41MTgyIDg5LjYzNjkgNDQuMTY4M0M5MC4xMjQ1IDQ0LjY5NjYgOTAuODU1OSA0NS4wMjE2IDkxLjU4NzMgNDQuOTQwNEM5Mi4zMTg3IDQ0Ljk4MSA5My4wNTAxIDQ0LjY5NjYgOTMuNTM3NyA0NC4xNjgzQzk0LjAyNTMgNDMuNTE4MiA5NC4yNjkxIDQyLjY2NDkgOTQuMjI4NSA0MS44NTIyVjI5Ljc0MzVIMTAxLjM4VjQxLjI4MzRDMTAxLjM4IDQ3LjI5NzEgOTguMTI5MyA1MC4zMDQgOTEuNTg3MyA1MC4zMDRaTTE0LjIyMTYgNTAuMDE5NUg3LjA3MDE4VjQyLjk5TDAgMjkuNzQzNUg3LjExMDgyTDkuMjY0MzggMzQuMzc1N0wxMC42ODY1IDM4LjA3MzRMMTIuMTA4NyAzNC4zNzU3TDE0LjI2MjMgMjkuNzQzNUgyMS4yOTE4TDE0LjIyMTYgNDIuOTlWNTAuMDE5NVoiIGZpbGw9IiMyRDMwMzciLz4KPHBhdGggZD0iTTQ1Ljk1NjIgMjkuNTgxSDM3LjM0MTlWNTAuNzEwM0g0NS45NTYyVjI5LjU4MVoiIGZpbGw9IiMyRDMwMzciLz4KPHBhdGggZD0iTTU0LjU3MDUgMjkuNTgxSDQ1Ljk1NjJWNTAuNzEwM0g1NC41NzA1VjI5LjU4MVoiIGZpbGw9IiNGRkYzMTAiLz4KPHBhdGggZD0iTTYzLjIyNTMgMjkuNTgxSDU0LjYxMTFWNTAuNzEwM0g2My4yMjUzVjI5LjU4MVoiIGZpbGw9IiNDQzBBMEEiLz4KPC9nPgo8ZGVmcz4KPGNsaXBQYXRoIGlkPSJjbGlwMCI+CjxyZWN0IHdpZHRoPSIxNTQiIGhlaWdodD0iODAuMDA2OSIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/83748187_1098782837133048_7954599063658168320_n.png?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=rY1Mx4v9zIkAX_7KzIR&_nc_ht=scontent.fbru2-1.fna&oh=347baa463f36093827907a8c0caa73f7&oe=60CEA990",
+    },
+    {
+      name: "Le Wagon",
+      url: "https://www.lewagon.com/brussels",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/67296648_1344469349034429_6816121194765352960_n.png?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Uuel4DAQgMoAX8CGWsw&_nc_ht=scontent.fbru2-1.fna&oh=62a5866b4a43822dee73f000d8124e03&oe=60CDCC8C",
     },
     {
       name: "Hackages",
       url: "https://www.hackages.io/",
       image:
-        "data:image/png;base64,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",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/128892295_3672085856171578_5623114005888295828_n.png?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=97qwEUlJczIAX8pomCA&_nc_ht=scontent.fbru2-1.fna&oh=5be61000b5ffd95720ef8a7309b5fc1e&oe=60D0BDA9",
     },
     {
       name: "Web Design Academy",
@@ -38,7 +46,7 @@ export default {
       name: "Pluralsight",
       url: "https://www.pluralsight.com/browse/software-development/javascript",
       image:
-        "https://www.pluralsight.com/content/dam/pluralsight/newsroom/brand-assets/logos/PS_logo_F-01.png",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t31.18172-8/27788934_10155225225756179_283496236924796655_o.png?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=F7Bov73i2r4AX9Njy1u&_nc_ht=scontent.fbru2-1.fna&oh=a61c33afafbc79e180e35f7ca50c4532&oe=60CE52B6",
       tags: ["paid", "trial"],
       langs: ["en"],
     },
@@ -46,7 +54,7 @@ export default {
       name: "Udemy",
       url: "https://www.udemy.com/courses/search/?src=ukw&q=javascript",
       image:
-        "https://digitalsharecropper.com/wp-content/uploads/2016/03/udemy-logo-e1604793745846.png",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/22852076_1883091395064249_1767292441397477388_n.png?_nc_cat=1&ccb=1-3&_nc_sid=174925&_nc_ohc=9v2xJyUFX3QAX-N0xYa&_nc_ht=scontent.fbru2-1.fna&oh=3d7d9869413139d173878fb82623d53f&oe=60CD1656",
       tags: ["paid", "free"],
       langs: ["en", "fr"],
     },
@@ -55,7 +63,7 @@ export default {
       url:
         "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
       image:
-        "https://design-style-guide.freecodecamp.org/downloads/fcc_secondary_small.jpg",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/12439144_1738400546393339_7527358456954625324_n.png?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=tq3LDmjuSSAAX_XYm1i&_nc_ht=scontent.fbru2-1.fna&oh=c4419bd9371afbef23ef26063b699a7f&oe=60D0163E",
       tags: ["free"],
       langs: ["en"],
     },
@@ -63,9 +71,115 @@ export default {
       name: "Grafikart",
       url: "https://grafikart.fr/formations/debuter-javascript",
       image:
-        "https://pbs.twimg.com/profile_images/71345984/n95801875180_3225_400x400.jpg",
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/20151_483951235642_7374027_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=rtyOZL4062wAX_FWL9J&_nc_ht=scontent.fbru2-1.fna&oh=a3b301b9eae616e19a08f4a7efc83c31&oe=60CF2F60",
       tags: ["free"],
       langs: ["fr"],
+    },
+  ],
+  jobs: [
+    {
+      name: "Welcome To The Jungle",
+      url:
+        "https://www.welcometothejungle.com/en/jobs?aroundQuery=Brussels%2C%20Belgium&refinementList%5Boffice.state%5D%5B0%5D=Brussels&refinementList%5Boffice.country_code%5D%5B0%5D=BE&page=1&query=javascript",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/106017467_1677815979048515_891317647178396671_n.png?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=5UaOB6_nHKsAX8TfMNb&_nc_ht=scontent.fbru2-1.fna&oh=48356dbc18659a62fb86429d2808a277&oe=60CFAD26",
+    },
+    {
+      name: "Linkedin",
+      url:
+        "https://www.linkedin.com/jobs/search/?geoId=100432943&keywords=javascript%20developer&location=Brussels%2C%20Brussels%20Region%2C%20Belgium&originalSubdomain=be",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/50023981_10155975057727823_5410490609100128256_n.jpg?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=JjRcmDAHd1oAX-QNRqF&_nc_ht=scontent.fbru2-1.fna&oh=efff48bd19d37a0722f1d286399057a8&oe=60D0C7B2",
+    },
+    {
+      name: "Stack Overflow",
+      url:
+        "https://stackoverflow.com/jobs?l=Brussels%2C+Belgium&d=20&u=Km&tl=javascript",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/12006269_10150553545389971_5448097255504457554_n.png?_nc_cat=109&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=5Fvto7paylkAX90qepC&_nc_ht=scontent.fbru2-1.fna&oh=00ec28e799e656e93973f160ffc92766&oe=60CEC86E",
+    },
+    {
+      name: "Angel List",
+      url: "https://angel.co/jobs",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t31.18172-8/28337941_1882609885105817_3611642004894397126_o.png?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=RWcvcYfTTEwAX-Opw5G&_nc_ht=scontent.fbru2-1.fna&oh=34242b7b49208a0b2d6c1e562448fb85&oe=60CCF730",
+    },
+    {
+      name: "ICT jobs",
+      url: "https://www.ictjob.be/en/search-it-jobs/javascript",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/47465562_2263176353693056_9121103355093975040_n.png?_nc_cat=108&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=MCYfkl-PTHcAX-z-mVS&_nc_ht=scontent.fbru2-1.fna&oh=f54522cbe596d84f112567f6e8d23305&oe=60D00A35",
+    },
+    {
+      name: "Glassdoor",
+      url:
+        "https://www.glassdoor.com/Job/jobs.htm?suggestCount=0&suggestChosen=false&clickSource=searchBtn&typedKeyword=&typedLocation=Brussels&locT=C&locId=2302160&jobType=&context=Jobs&sc.keyword=javascript+developer&dropdown=0",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/17992028_10154309219645755_7366196066181653730_n.png?_nc_cat=103&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=ynTowe4dROgAX_nuvd4&_nc_ht=scontent.fbru2-1.fna&oh=a3b5a4815400edfbae0364eff8c6e157&oe=60D0BF60",
+    },
+    {
+      name: "Indeed",
+      url:
+        "https://emplois.be.indeed.com/emplois?q=Javascript+Developer&l=Bruxelles",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/158720471_10158788340153381_7989013313529492525_n.png?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Tmll1d4u5cQAX-L0P-E&_nc_ht=scontent.fbru2-1.fna&oh=49bab1c7d834ee89b15c826703564c89&oe=60CFCFF7",
+    },
+    {
+      name: "The Muse",
+      url:
+        "https://www.themuse.com/search/keyword/software%20engineering/location/brussels-belgium/",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/79019703_3255521954522471_6896320002392064000_n.png?_nc_cat=111&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=3T6RDS-ipvAAX9q7x0B&_nc_ht=scontent.fbru2-1.fna&oh=88b38cc5963d3ca46839271be741c2e8&oe=60CEDEE9",
+    },
+    {
+      name: "Product Hunt",
+      url:
+        "https://www.producthunt.com/jobs?categories=Engineering&locations=Worldwide",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t31.18172-8/10714574_1572472259705950_8541620573116501881_o.png?_nc_cat=1&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=N7Ordt057wYAX_iHAVQ&_nc_ht=scontent.fbru2-1.fna&oh=b102467b8175fe876b2d4d33e448bbd5&oe=60CFA7C1",
+    },
+    {
+      name: "Flex Jobs",
+      url:
+        "https://www.flexjobs.com/search?search=javascript&location=Brussels%2C+Belgium",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/118580611_10159876606322289_7149475587261612720_n.png?_nc_cat=101&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=Nva97jWL7ycAX-ar5zP&_nc_ht=scontent.fbru2-1.fna&oh=5ab5f855f09863e92e823806cf2578b7&oe=60CF477B",
+    },
+    {
+      name: "Power To Fly",
+      url:
+        "https://powertofly.com/jobs/?keywords=%22Software+Engineering%22+OR+Developer+OR+Engineer+OR+%22Backend+Developer%22+OR+%22Frontend+Developer%22+OR+%22Fullstack+Developer%22+OR+%22Mobile+Developer%22+OR+%22Game+Developer%22+OR+%22Engineering+Manager%22&location=Brussels%2C+Belgium",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/119259703_1691709334336900_8566741933344759325_n.png?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=R_H6NeDm69QAX_gdSC7&_nc_ht=scontent.fbru2-1.fna&oh=e6352f82d751dfee1b3901c148a3b90b&oe=60D077EE",
+    },
+    {
+      name: "Startupers",
+      url: "https://www.startupers.com/",
+    },
+    {
+      name: "Y Combinator",
+      url: "https://news.ycombinator.com/jobs",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.18169-9/1452518_10151868768054107_570337672_n.jpg?_nc_cat=105&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=X1wYRHm8EugAX-w3sNr&_nc_ht=scontent.fbru2-1.fna&oh=e50d4a63fe66ba4d42ed0a99d266c07b&oe=60CE031C",
+    },
+    {
+      name: "Working Nomads",
+      url: "https://www.workingnomads.co/jobs",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t31.18172-8/15493522_1768784093385354_4261795909180697723_o.png?_nc_cat=110&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=PLF804lAqLIAX-fqy4a&_nc_ht=scontent.fbru2-1.fna&oh=68442a93a0cd9c9b4568b31f281868ec&oe=60CEB7FC",
+    },
+    {
+      name: "We Work Remotely",
+      url:
+        "https://weworkremotely.com/categories/remote-full-stack-programming-jobs#",
+      image:
+        "https://scontent.fbru2-1.fna.fbcdn.net/v/t1.6435-9/60849472_2274257056225107_4022026423601463296_n.png?_nc_cat=107&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=43ZYt0mBLp0AX_jBLoq&_nc_ht=scontent.fbru2-1.fna&oh=a60f69daaf4f9e7224e02a6ba4d499da&oe=60D031AC",
+    },
+    {
+      name: "Android Jobs",
+      url: "https://androidjobs.io/",
+      image:
+        "https://pbs.twimg.com/profile_images/1020635343090077697/Lfqn5tOY_400x400.jpg",
     },
   ],
 }
